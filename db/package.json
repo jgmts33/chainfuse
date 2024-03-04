@@ -1,0 +1,20 @@
+{
+  "name": "db",
+  "version": "0.0.0",
+  "private": true,
+  "exports": {
+    ".": "./index.js",
+    "./schemas": "./schemas/index.ts",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "firebase": "^9.9.0",
+    "zod": "^3.17.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.8",
+    "firebase": "^9.9.3",
+    "typescript": "^4.7.4",
+    "zod": "^3.18.0"
+  }
+}

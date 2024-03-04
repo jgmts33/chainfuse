@@ -1,0 +1,44 @@
+# Cloudflare Workers configuration
+# https://developers.cloudflare.com/workers/wrangler/configuration/
+
+name = "site"
+main = "index.js"
+
+# https://developers.cloudflare.com/workers/platform/compatibility-dates/
+compatibility_date = "2022-04-18"
+
+account_id = "$CLOUDFLARE_ACCOUNT_ID"
+
+routes = [
+  { pattern = "*/*", zone_id = "$CLOUDFLARE_ZONE_ID" },
+  { pattern = "$SITES_HOSTNAME/*", zone_id = "$CLOUDFLARE_ZONE_ID" },
+  { pattern = "$APP_HOSTNAME/*", zone_id = "$CLOUDFLARE_ZONE_ID" }
+
+  # Alternatively, list the API routes explicitely
+  # { pattern = "$APP_HOSTNAME/api/sites", zone_id = "$CLOUDFLARE_ZONE_ID" },
+  # { pattern = "$APP_HOSTNAME/api/sites/*", zone_id = "$CLOUDFLARE_ZONE_ID" },
+  # { pattern = "$APP_HOSTNAME/api/users", zone_id = "$CLOUDFLARE_ZONE_ID" },
+  # { pattern = "$APP_HOSTNAME/api/users/*", zone_id = "$CLOUDFLARE_ZONE_ID" }
+]
+
+# kv_namespaces = [
+#   { binding = "sites", id = "$SITES_KV_NAMESPACE_ID" }
+# ]
+
+[vars]
+APP_ENV = "$APP_ENV"
+APP_NAME = "$APP_NAME"
+APP_HOSTNAME = "$APP_HOSTNAME"
+API_ORIGIN = "$API_ORIGIN"
+TEMPLATES_URL = "$TEMPLATES_URL"
+GOOGLE_CLOUD_PROJECT = "$GOOGLE_CLOUD_PROJECT"
+
+# [secrets]
+# GOOGLE_CLOUD_CREDENTIALS
+
+[[rules]]
+type = "ESModule"
+globs = ["**/*.js"]
+
+# [site]
+# bucket = "../public"

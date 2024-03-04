@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 554 554" style="enable-background:new 0 0 554 554;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#627EEA;}
+	.st1{fill:#FFFFFF;fill-opacity:0.602;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#FFFFFF;fill-opacity:0.2;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#E84142;}
+</style>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="Ethereum">
+		<g id="Group-45" transform="translate(0.302319, -0.000000)">
+			<circle id="Oval" class="st0" cx="276.5" cy="277" r="276.5"/>
+			<polygon id="Path" class="st1" points="285.1,69.6 285.1,222.9 414.6,280.8 			"/>
+			<polygon id="Path_1_" class="st2" points="285.1,69.6 155.5,280.8 285.1,222.9 			"/>
+			<polygon id="Path_2_" class="st1" points="285.1,380.1 285.1,484.2 414.7,304.9 			"/>
+			<polygon id="Path_3_" class="st2" points="285.1,484.2 285.1,380.1 155.5,304.9 			"/>
+			<polygon id="Path_4_" class="st3" points="285.1,356 414.6,280.8 285.1,222.9 			"/>
+		</g>
+		<polygon id="Path_5_" class="st1" points="155.8,280.8 285.4,356 285.4,222.9 		"/>
+	</g>
+</g>
+<g>
+	<rect x="105.8" y="94.8" class="st2" width="342.3" height="311.3"/>
+	<path class="st4" d="M554.1,277c0,153-124,277-277,277c-153,0-277-124-277-277c0-153,124-277,277-277C430.1,0,554.1,124,554.1,277z
+		 M198.6,387.2h-53.8c-11.3,0-16.9,0-20.3-2.2c-3.7-2.4-5.9-6.3-6.2-10.7c-0.2-4,2.6-8.9,8.2-18.7l132.7-234
+		c5.6-9.9,8.5-14.9,12.1-16.7c3.9-2,8.5-2,12.4,0c3.6,1.8,6.5,6.8,12.1,16.7l27.3,47.6l0.1,0.2c6.1,10.7,9.2,16.1,10.5,21.7
+		c1.5,6.2,1.5,12.7,0,18.9c-1.4,5.7-4.4,11.2-10.6,22l-69.7,123.2l-0.2,0.3c-6.1,10.7-9.3,16.2-13.6,20.3
+		c-4.7,4.5-10.3,7.8-16.5,9.6C217.6,387.2,211.3,387.2,198.6,387.2z M334.4,387.2h77c11.4,0,17.1,0,20.5-2.2c3.7-2.4,6-6.4,6.2-10.8
+		c0.2-3.9-2.5-8.6-7.9-17.8c-0.2-0.3-0.4-0.6-0.6-1l-38.6-66l-0.4-0.7c-5.4-9.2-8.2-13.8-11.7-15.6c-3.9-2-8.4-2-12.3,0
+		c-3.5,1.8-6.4,6.7-12,16.4l-38.4,66l-0.1,0.2c-5.6,9.7-8.4,14.6-8.2,18.6c0.3,4.4,2.5,8.4,6.2,10.8
+		C317.3,387.2,323,387.2,334.4,387.2z"/>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "name": "site",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc",
+    "build": "yarn api:build",
+    "deploy": "yarn site:deploy"
+  },
+  "dependencies": {
+    "@cloudflare/kv-asset-handler": "^0.2.0",
+    "cookie": "^0.5.0",
+    "jose": "^4.10.0",
+    "quick-lru": "^6.1.1",
+    "web-auth-library": "^0.4.1",
+    "xss": "^1.0.14"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^3.14.1",
+    "@jest/globals": "^29.0.1",
+    "@types/cookie": "^0.5.1",
+    "@types/jest": "^28.1.8",
+    "typescript": "^4.7.4"
+  }
+}

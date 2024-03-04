@@ -1,0 +1,42 @@
+{
+  "name": "admin",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gsutil -m -h \"Cache-Control: public, max-age=31536000, s-maxage=604800, immutable\" rsync -r ./dist/assets/ gs://templates.chainfuse.com/admin-latest/assets/ && gsutil -m -h \"Cache-Control: public, max-age=600, must-revalidate\" rsync -x \"assets\\/.*\" ./dist gs://templates.chainfuse.com/admin-latest/"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/lab": "^5.0.0-alpha.99",
+    "@mui/material": "^5.10.5",
+    "@mui/system": "^5.10.5",
+    "@mui/x-data-grid-pro": "^5.17.3",
+    "@mui/x-license-pro": "^5.17.0",
+    "core": "workspace:*",
+    "firebase": "^9.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.3.0",
+    "recoil": "^0.7.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.13",
+    "@emotion/babel-plugin": "^11.10.2",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@types/jest": "^28.1.8",
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "cloudflare-client": "^0.3.2",
+    "rollup": "^2.78.1",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.9"
+  }
+}

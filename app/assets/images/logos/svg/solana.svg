@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="556px" height="556px" viewBox="0 0 556 556" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Solana</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="90.7426631%" y1="-350.360964%" x2="35.5026426%" y2="192.478958%" id="linearGradient-1">
+            <stop stop-color="#00FFA3" offset="0%"></stop>
+            <stop stop-color="#DC1FFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="66.5887377%" y1="-112.993412%" x2="11.3487171%" y2="429.846509%" id="linearGradient-2">
+            <stop stop-color="#00FFA3" offset="0%"></stop>
+            <stop stop-color="#DC1FFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="78.5737875%" y1="-230.899803%" x2="23.344352%" y2="311.940118%" id="linearGradient-3">
+            <stop stop-color="#00FFA3" offset="0%"></stop>
+            <stop stop-color="#DC1FFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Solana" transform="translate(1.000000, 1.000000)">
+            <circle id="Oval-2" stroke="#979797" fill="#FFFFFF" cx="277" cy="277" r="277"></circle>
+            <g id="Solana-(SOL)" transform="translate(119.000000, 155.000000)" fill-rule="nonzero">
+                <path d="M51.5564054,187.777995 C53.4837476,185.853301 56.0736138,184.77066 58.7839388,184.77066 L309.639579,184.77066 C314.217017,184.77066 316.505736,190.304156 313.253346,193.491932 L263.684512,242.932518 C261.75717,244.857213 259.167304,245.939853 256.456979,245.939853 L5.66156788,245.939853 C1.08413002,245.939853 -1.20458891,240.406357 2.04780115,237.218582 L51.5564054,187.777995 Z" id="Shape" fill="url(#linearGradient-1)"></path>
+                <path d="M51.5564054,3.00733496 C53.4837476,1.08264059 56.0736138,0 58.7839388,0 L309.639579,0 C314.217017,0 316.505736,5.53349633 313.253346,8.72127139 L263.684512,58.1618582 C261.75717,60.0865526 259.167304,61.1691932 256.456979,61.1691932 L5.66156788,61.1691932 C1.08413002,61.1691932 -1.20458891,55.6356968 2.04780115,52.4479218 L51.5564054,3.00733496 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                <path d="M263.684512,94.791198 C261.75717,92.8665037 259.167304,91.7838631 256.456979,91.7838631 L5.66156788,91.7838631 C1.08413002,91.7838631 -1.20458891,97.3173594 2.04780115,100.505134 L51.6166348,149.945721 C53.5439771,151.870416 56.1338432,152.953056 58.8441683,152.953056 L309.699809,152.953056 C314.277247,152.953056 316.565966,147.41956 313.313576,144.231785 L263.684512,94.791198 Z" id="Shape" fill="url(#linearGradient-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

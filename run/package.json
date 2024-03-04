@@ -1,0 +1,31 @@
+{
+  "name": "run",
+  "version": "0.1.0",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "socket.io": "^4.5.3",
+    "stripe": "^8.202.0",
+    "web3": "^1.8.0"
+  },
+  "devDependencies": {
+    "concurrently": "4.1.2"
+  },
+  "homepage": "http://localhost:3000/checkout",
+  "proxy": "http://localhost:4242",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
